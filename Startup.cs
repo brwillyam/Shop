@@ -61,8 +61,8 @@ namespace Shop
                     ValidateAudience = false
                 };
             });
-            services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("Database"));
-            //services.AddDbContext<DataContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("connectionString")));
+           // services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("Database"));
+            services.AddDbContext<DataContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("connectionString")));
 
             //services.AddScoped<DataContext, DataContext>();//garante que tenha somente um DataContext e fecha a conexao com o BD
             // o AddScoped nao usa mais pois o AddDbContext jah supre essa funcao 
@@ -77,11 +77,11 @@ namespace Shop
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
+            //Endpointif (env.IsDevelopment())
+           // {
                 app.UseDeveloperExceptionPage();
                                
-            }
+           // }
 
             app.UseHttpsRedirection();
 
