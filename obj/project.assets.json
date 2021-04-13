@@ -6183,11 +6183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Shop\\Shop.csproj",
+      "projectUniqueName": "C:\\Dev\\CriandoAPIs\\Shop\\Shop.csproj",
       "projectName": "Shop",
-      "projectPath": "D:\\Shop\\Shop.csproj",
+      "projectPath": "C:\\Dev\\CriandoAPIs\\Shop\\Shop.csproj",
       "packagesPath": "C:\\Users\\brwil\\.nuget\\packages\\",
-      "outputPath": "D:\\Shop\\obj\\",
+      "outputPath": "C:\\Dev\\CriandoAPIs\\Shop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\brwil\\AppData\\Roaming\\NuGet\\NuGet.Config",

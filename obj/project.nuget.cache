@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mSwZigF8DfjLS4BhAlcHgxB7KZ76LzUHS5yWfz9Oq/i9hiwqLBrlJ/Tt3AhTKT5nmC0mbaE5Ks9J6u+24oT40g==",
+  "dgSpecHash": "TErTc7gAL7tsDWBdxQks4CLac9E+7sGj4rBHyCF6K+a7o5BNa6uTdbWi0o9GApNceGwyYmumutlGOvamC7TYcw==",
   "success": true,
-  "projectFilePath": "D:\\Shop\\Shop.csproj",
+  "projectFilePath": "C:\\Dev\\CriandoAPIs\\Shop\\Shop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brwil\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\brwil\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
