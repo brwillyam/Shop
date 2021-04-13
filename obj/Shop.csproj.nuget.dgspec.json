@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\CriandoAPIs\\shop\\Shop.csproj": {}
+    "D:\\Shop\\Shop.csproj": {}
   },
   "projects": {
-    "C:\\dev\\CriandoAPIs\\shop\\Shop.csproj": {
+    "D:\\Shop\\Shop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\CriandoAPIs\\shop\\Shop.csproj",
+        "projectUniqueName": "D:\\Shop\\Shop.csproj",
         "projectName": "Shop",
-        "projectPath": "C:\\dev\\CriandoAPIs\\shop\\Shop.csproj",
+        "projectPath": "D:\\Shop\\Shop.csproj",
         "packagesPath": "C:\\Users\\brwil\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\CriandoAPIs\\shop\\obj\\",
+        "outputPath": "D:\\Shop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\brwil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,13 +40,31 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[5.0.0-rc4, )"
             }
           },
           "imports": [

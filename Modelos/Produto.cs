@@ -1,5 +1,8 @@
+using System.IO;
 using System.ComponentModel.DataAnnotations;
 using Shop.Modelos;
+using Shop.Data;
+
 
 namespace Shop.Modelos
 {
